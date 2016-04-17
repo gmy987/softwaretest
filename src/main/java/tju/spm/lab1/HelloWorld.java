@@ -5,6 +5,6 @@ package tju.spm.lab1;
  */
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello Gao Mengya!");
+        System.out.println("Hello Gao Mengya, Yang Lin, Shen Jining, Huo Xiayu and Hu Xiao!");
     }
 }
