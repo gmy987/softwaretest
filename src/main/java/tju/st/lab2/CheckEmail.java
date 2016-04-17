@@ -45,7 +45,6 @@ public class CheckEmail {
             driver.findElement(By.id("submit")).click();
             WebElement tbody = driver.findElement(By.id("table-main"));
             List<WebElement> tds = tbody.findElements(By.tagName("td"));
-            System.out.println(data[0]);
             assertEquals(tds.get(1).getText(),data[1]);
         }
     }
